@@ -79,8 +79,8 @@ class EmailStmp:
 
 
 if __name__ == '__main__':
-    to_addr_list = ['435532303@qq.com']
-    email = EmailStmp(addr='zxlovesweet@foxmail.com', key='wvvykikxaxuvbiff', mode='qq')
+    to_addr_list = ['']
+    email = EmailStmp(addr='', key='', mode='qq')
     email.edit_title('大胆！')
     html = "<html>" \
            "<h2>商店刷新</h2>" \
